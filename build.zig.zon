@@ -1,0 +1,21 @@
+.{
+    .name = .nxdk_pbgl_zig,
+    .version = "0.0.1",
+    .fingerprint = 0xe96d4c696827a3e8, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .nxdk_zig = .{
+            .url = "git+https://github.com/zweiler2/nxdk_zig.git#fbde653cb18891f72f16698cc2722c0b835cdf56",
+            .hash = "nxdk_zig-0.0.1-BbFuWRYKCQD28vLfLfS6Vl1EdFyfwvp-yQuo71Inexvc",
+        },
+        .nxdk_pbgl = .{
+            .url = "git+https://github.com/fgsfdsfgs/pbgl.git#017ab17c4530bf3e2ad446a50de9b18ea6011548",
+            .hash = "N-V-__8AAL1CBACklSt5BGcVw3bv1HGrqsKd4oJbT28jHrfg",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
