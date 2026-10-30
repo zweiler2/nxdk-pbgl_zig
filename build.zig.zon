@@ -9,8 +9,8 @@
             .hash = "nxdk_zig-0.0.1-BbFuWRYKCQD28vLfLfS6Vl1EdFyfwvp-yQuo71Inexvc",
         },
         .nxdk_pbgl = .{
-            .url = "git+https://github.com/fgsfdsfgs/pbgl.git#9f9a7bf795a63c97e311fe0dad20edc768e3b40d",
-            .hash = "N-V-__8AAK3KBADx4Hdxl9mgOMiN5kVigYagqqJDukIOGIVZ",
+            .url = "git+https://github.com/zweiler2/nxdk-pbgl.git#fc6e06bcc830029d945c4f1b126f094077b53c09",
+            .hash = "N-V-__8AAKTPBADEnQOAilGorkz542ZfRxl4wRKoyduIA36g",
         },
     },
     .paths = .{
